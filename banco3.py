@@ -10,6 +10,15 @@ class Conta:
         agencia = str
         cliente = Cliente
         historico = Historico
+    def saldo(): 
+        float
+    def nova_conta(cliente,numero): 
+        Conta
+    def sacar(valor:float):
+        bool
+    def depositar(valor:float):
+        bool
+
 
 class Conta_corrente(Conta):
     def __init__(self,limite,limite_saques):
@@ -47,8 +56,8 @@ class Transacao(Saque,Deposito):
     def Registrar_conta(conta:Conta):
         pass
 
-class Historico:
-    def __init__(self) -> None:
+class Historico():
+    def adicionar_transacao(transacao):
         pass
 
 
